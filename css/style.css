@@ -477,14 +477,10 @@ section {
     outline: var(--outline-hover);
     outline-offset: 0rem;
 }
-.box-container .box .image-container {
-    width: 40vh;
-    height: 30vh;
-}
 
-.box-container .box .image-container img {
-    height: 100%;
-    width: 100%;
+.box-container .box img {
+    width: 80%;
+    height: 35vh;
     object-fit: cover;
 }
 
@@ -583,6 +579,7 @@ section {
 /* CATERGORIES */
 .categories .box-container .box .image-container {
     background-color: none;
+    width: 100%;
 }
 
 .categories .box-container .box img {
@@ -683,12 +680,6 @@ section {
     outline: none;
     border-radius: 1rem;
     overflow: hidden;
-}
-
-.blogs .box-container .box .image-container {
-    max-width: 40rem;
-    text-align: center;
-    width: 100%;
 }
 
 .blogs .box-container .box img {
